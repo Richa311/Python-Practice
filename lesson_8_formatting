@@ -18,4 +18,4 @@ print(preview_message)
 
 # Output friend list status
 friend_message = "👤 USER: " + username + " | ONLINE STATUS: " + str(is_online) + " | SYNC COMPLETE."
-print(friend_message)
+print(friend_message)   
