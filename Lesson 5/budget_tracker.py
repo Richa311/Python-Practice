@@ -12,7 +12,7 @@ cost= input( ' What is your cost ?')
 # Change the cost into an integer
 cost= int<(cost) 
 # Calculate the percentage of budget (cost / budget) * 100
-cost= 
+
 # Tell your user the percentage of your budget
 
 # Check if percentage is 0 and say it's free if it is
