@@ -8,11 +8,11 @@ messages_count = int(input("Number of unread text messages: "))
 is_online = input("Are they online right now? (yes/no): ").strip().lower() == "yes"
 
 # Output current status
-status_message = f"💬 [ {username} ] " + "is typing a response..." 
+status_message = f"💬 [ {username} ] is typing a response..." 
 print(status_message)
 
 # Output message log
-preview_message = "✉️ You have " + str(messages_count) + " unread messages waiting from " + username + "."
+preview_message = "✉️ You have "  + str(messages_count) + " unread messages waiting from " + username + "."
 print(preview_message)
 
 
