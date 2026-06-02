@@ -1,5 +1,7 @@
 print(" This is basic Science quiz. There are some question related to Chemistry and Equations")
 score= 0
+total_questions= 9
+Quiz_running= True 
 ans1= input("What is the Symbol of Sodium in Periodic Table? ").strip ().upper()
 if ans1 == "NA":
     print("Correct answer")
@@ -34,11 +36,8 @@ if ans5==" ES":
 else: 
     print(" Wrong. It is ES.")
 ans6=int(input("How many electrons does Carbon have? ").strip ().upper())
-if ans6== "6":
+if ans6== "6" or "six":
     print("Correct answer")
-    score+=1
-elif ans6==" six":
-    print( " Great work")
     score+=1
 else:
     print(" Incorrect. Oxygen have 6 electrons")
@@ -61,10 +60,7 @@ if ans9==" 18":
 else:
     print(" Wrong. Argon have 18 electrons.")
 ans10= int(input("What is the atomic number of Argon?").strip ().upper())
-if ans10==" 16":
-    print(" Correct answer!")
-    score+=1
-elif ans10== " Sixteen":
+if ans10==" 16" or " Sixteen":
     print(" Correct answer!")
     score+=1
 else: 
@@ -74,3 +70,13 @@ print( "The end. Your results are down below")
 print("=" * 60)
 print(" final results". center(60, "="))
 print("=" * 60 )
+print(f"Your score: { score}/ { total_questions}") 
+sucess_rate= (score/ total_questions ) * 100 
+if sucess_rate == 100:
+    print( " Rank: Great work! You know your elements well.")
+elif sucess_rate >=70:
+    print(" Rank: Good job! A little more styding will help you reach the top score!")
+else:
+    print(" Rank: Beginner. Keep practicing on periodic table ")
+
+    Quiz_running= False
