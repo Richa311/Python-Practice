@@ -31,8 +31,8 @@ if ans4 =="AR":
 else:
     print (" Incorrect. It is AR. ")
 
-ans5 = input (" What is the Symbol of Einsteinium in Periodic Table? ") .strip ().upper()
-if ans5 ==" es":
+ans5 = input (" What is the Symbol of Einsteinium in Periodic Table? ").strip ().upper()
+if ans5 ==" ES":
     print (" Correct!")
     score += 1
 else: 
@@ -44,7 +44,7 @@ if ans6 == "6" or ans6=="six":
 else:
     print (" Incorrect. Oxygen have 6 electrons")
 ans7 = input ("What is the Symbol of Bohrium in Periodic Table?").strip ().upper()
-if ans7 =="BH":
+if ans7 ==" BH":
     print (" Good job")
     score += 1
 else: 
@@ -74,8 +74,8 @@ sucess_rate= (score/ total_questions ) * 100
 if sucess_rate == 100:
     print( " Rank: Great work! You know your elements well.")
 elif sucess_rate >=70:
-    print(" Rank: Good job! A little more styding will help you reach the top score!")
+    print(" Rank: Good job! keep styding to reach the top score!")
 else:
     print(" Rank: Beginner. Keep practicing on periodic table ")
 
-    Quiz_running= False
+    Quiz_running= False  

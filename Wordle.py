@@ -49,19 +49,3 @@ guess = input( "Enter a 5 letter word: ")
         # TODO Else tell them that letter is wrong
 
 # TODO Ask if they want to play again. If they don't, set play to false.
-
-
-# ==========================================================
-# EXTENSION
-# Instead of telling the user one by one about their letters, put each correct letter and _ for a wrong letter into a list. 
-# Then finally print the list (you can use "".join(list_name) to merge them into a string if you like)
-
-# ==========================================================
-# EXPERT
-# Following on from the extension, add colour to the letters instead (Don't use _ for incorrect anymore). Green for correct, orange for wrong place, red for incorrect. You'll need to add the colour as you add them to the list
-
-# print("\033[31mThis is Red Text\033[0m")
-# print("\033[38;2;255;165;0mThis is Orange Text\033[0m")
-# print("\033[32mThis is Green Text\033[0m")
-
-# Further Extension: Structure with user defined functions
