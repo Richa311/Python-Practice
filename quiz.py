@@ -2,18 +2,21 @@ print (" This is basic Science quiz. There are some question related to Chemistr
 score =  0
 total_questions = 9
 Quiz_running = True 
+
 ans1 = input (" What is the Symbol of Sodium in Periodic Table? ") .strip ().upper()
 if ans1 == "NA":
     print ("Correct answer")
     score += 1
 else: 
     print (" Incorrect. The symbol of Sodium is NA" )
+
 ans2 = input (" What is the Symbol of Potassium in Periodic Table? ") .strip ().upper()
 if ans2 == "K":
     print (" Good job ")
     score += 1
 else:
     print (" Inccorect. The symbol of Potassium is K. ")
+
 ans3 = int(input("How many electrons does Oxygen have?") .strip ().upper())
 if ans3 == "8":
     print ("Correct answer")
@@ -25,7 +28,7 @@ else:
     print (" Wrong! Oxygen have 8 electrons." )
 
 ans4 = input(" What is the Symbol of Argon in Periodic Table? ") .strip ().upper()
-if ans4 =="AR":
+if ans4 =="AR": #need to debug#
     print (" Great job!")
     score += 1
 else:
@@ -37,24 +40,28 @@ if ans5 ==" ES":
     score += 1
 else: 
     print (" Wrong. It is ES. ")
+
 ans6 = int(input("How many electrons does Carbon have? ") .strip ().upper())
-if ans6 == "6" or ans6=="six":
+if ans6 == "6" or ans6=="six":  #need to debug #
     print ("Correct answer")
     score += 1
 else:
     print (" Incorrect. Oxygen have 6 electrons")
+
 ans7 = input ("What is the Symbol of Bohrium in Periodic Table?").strip ().upper()
-if ans7 ==" BH":
+if ans7 ==" BH":  #need to debug # 
     print (" Good job")
     score += 1
 else: 
     print (" Wrong. It is BH")
+    
 ans8 = input("What is the Symbol of Neon in Periodic Table?").strip ().upper()
 if ans8 == "N":
     print (" Correct answer!")
     score += 1
 else:
     print (" Incorrect. It is N")
+    
 ans9 = input(" How many electerons does Argon have?  ").strip ().upper()
 if ans9 ==" 18" or ans9.lower == "eighteen":
     print (" Correct! great job ")
@@ -62,7 +69,7 @@ if ans9 ==" 18" or ans9.lower == "eighteen":
 else:
     print (" Wrong. Argon have 18 electrons. ")
 ans10= int(input("What is the atomic number of Argon?").strip ().upper())
-if ans10==" 16" or " Sixteen":
+if ans10==" 16" or " Sixteen":  #need to debug #
     print(" Correct answer!")
     score+=1
 else: 
@@ -77,5 +84,4 @@ elif sucess_rate >=70:
     print(" Rank: Good job! keep styding to reach the top score!")
 else:
     print(" Rank: Beginner. Keep practicing on periodic table ")
-
     Quiz_running= False  
