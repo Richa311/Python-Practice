@@ -7,15 +7,15 @@
 
 # Wild Pokemon
 # TODO Create a multidimensional list that holds 4 pokemon names and their max health (you choose)
-pokemon_list = ["Blissey", 714], ["Chansey", 704, ], ["Guzzlord", 650, ], ["Zygarde", 636]
+pokemon_list = {" name" : "Blissey", " health" : 714 }, {" name" : "Chansey", " health" : 704, }, {" name " :"Guzzlord", "health" :650, }, {"name ":"Zygarde", " health" : 636}
 # User Pokemon
 # TODO Create a multidimensional list that holds 4 pokemon attacks and their different damage
-attack_list = [ "Hyper Beam", 150 ], [ "Draco Meteor", 130 ], [ "Earthquake", 100 ], [ "Flamethrower", 90 ] 
+attack_list = {"name" :"Hyper Beam", "damage" : 150 }, { "name" : "Draco Meteor","health" : 130 }, { "name " : "Earthquake", " health" :100 }, { "name" : "Flamethrower", "health" : 90 } 
 # TODO Create a variable to hold a randomised wild pokemon
 # for i in range( len(attack_list)): 
 
 # TODO Create a current_health variable and set it to the max health of the random pokemon
-current_health= 
+current_health= pokemon_list[1]
 # TODO Tell the user what pokemon they're facing
 # TODO Create a while loop that continues until current health <= 0
     # TODO Ask the user which attack they'd like to use (list all 4 options, numbered); save input

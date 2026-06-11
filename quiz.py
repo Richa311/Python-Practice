@@ -69,7 +69,7 @@ if ans9 ==" 18" or ans9.lower == "eighteen":
 else:
     print (" Wrong. Argon have 18 electrons. ")
 ans10= int(input("What is the atomic number of Argon?").strip ().upper())
-if ans10=="16" or ans10== " sixteen ":
+if ans10=="16" or ans10== " sixteen ": # need tp debug
     print(" Correct answer!")
     score+=1
 else: 
