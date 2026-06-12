@@ -17,8 +17,11 @@ attack_list = {"name" :"Hyper Beam", "damage" : 150 }, { "name" : "Draco Meteor"
 # TODO Create a current_health variable and set it to the max health of the random pokemon
 current_health= pokemon_list[1]
 # TODO Tell the user what pokemon they're facing
+input( " What pokemon are you facing currently? ")
 # TODO Create a while loop that continues until current health <= 0
     # TODO Ask the user which attack they'd like to use (list all 4 options, numbered); save input
+input( " Which attack they'd like to use "(attack_list) ) 
+
     # TODO Use try except to ensure the user has input a number; if they didn't tell them so and then use 'continue' to restart the loop
     # TODO Using the number, get the attack damage value and minus it from current health
 
