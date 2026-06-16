@@ -7,38 +7,18 @@ This program helps to calulate different finacial values (discounts, gst)
 # FUNCTIONS
 # =====================================================================
 
-# TODO Create a function for calculating discount. 
-def calulate_discount( price, discount_percent):
-# TODO Copy and paste all the relevent code from below (all of choice 1) into new function.
-# TODO Write a comment above the function to explain what it does
-# TODO Replace the copied code below with a function call.
-
-
-# TODO Create a function for calculating gst. 
-# TODO Copy and paste all the relevent code from below (all of choice 2) into new function.
-# TODO Write a comment above the function to explain what it does
-# TODO Replace the copied code below with a function call.
-
-
-# TODO Create a main function for running the program.
-# TODO Copy and paste all remaining code (including your new calls) into this function.
-# TODO Replace the copied code below with a main function call.
-
-
-# =====================================================================
-# MAIN EXECUTION
-# =====================================================================
-
- print("📱 Welcome to the Finance Helper Dashboard 📱\n")
- print("1. Discount Calculator")
- print("2. GST Calculator")
-
+#Starting the program.
+print("📱 Welcome to the Finance Helper Dashboard 📱\n")
+print("1. Discount Calculator") 
+print("2. GST Calculator")
 choice = input("\nWhich tool do you want to use? (1 or 2): ").strip()
+def program(): 
 
-# Use logical operators to trigger the correct function
-if choice == "1":
-
-    # Run the discount calculator
+# TODO Create a function for calculating discount. 
+# this calulates the discount of an iteam.#
+def calulate_discount():
+# TODO Copy and paste all the relevent code from below (all of choice 1) into new function.
+  # Run the discount calculator
     print("--- Tool 1: Discount Calculator ---")
 
     # Get price
@@ -61,13 +41,16 @@ if choice == "1":
     
     # Calculate and output cost
     print(f"The item will cost {price * (1-discount)}")
+# TODO Write a comment above the function to explain what it does
+# TODO Replace the copied code below with a function call.
 
-    
-elif choice == "2":
-    
+
+# TODO Create a function for calculating gst. 
+#this calaulates the GST of an iteam.#
+def calculate_GST (): 
+# TODO Copy and paste all the relevent code from below (all of choice 2) into new function.
     print("--- Tool 2: GST Calculator ---")
-
-    # Get price
+ # Get price
     while True:
         price = input("What is the price of the item? (number only)")
         try:
@@ -89,5 +72,30 @@ elif choice == "2":
         print(f"GST = ${gst}")
         print(f"Item with GST = ${price + gst}")
 
-else:
-    print("Invalid choice. Exiting dashboard.")
+   
+# TODO Write a comment above the function to explain what it does
+# TODO Replace the copied code below with a function call.
+
+
+# TODO Create a main function for running the program.
+def running_the_program (): 
+# TODO Copy and paste all remaining code (including your new calls) into this function.
+
+
+# Use logical operators to trigger the correct function
+ if choice == "1":
+    calulate_discount()
+
+    
+ elif choice == "2":
+    
+    print("--- Tool 2: GST Calculator ---")
+
+ else:
+    print("Invalid choice. Exiting dashboard.")   
+# TODO Replace the copied code below with a main function call.
+
+
+# =====================================================================
+# MAIN EXECUTION
+# =====================================================================
