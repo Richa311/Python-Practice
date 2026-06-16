@@ -16,7 +16,7 @@ def program():
 
 # TODO Create a function for calculating discount. 
 # this calulates the discount of an iteam.#
-def calulate_discount():
+ def calulate_discount():
 # TODO Copy and paste all the relevent code from below (all of choice 1) into new function.
   # Run the discount calculator
     print("--- Tool 1: Discount Calculator ---")
@@ -78,18 +78,16 @@ def calculate_GST ():
 
 
 # TODO Create a main function for running the program.
-def running_the_program (): 
+def main (): 
 # TODO Copy and paste all remaining code (including your new calls) into this function.
 
 
 # Use logical operators to trigger the correct function
  if choice == "1":
-    calulate_discount()
+  def calculates_count(): 
 
-    
  elif choice == "2":
-    
-    print("--- Tool 2: GST Calculator ---")
+  print("--- Tool 2: GST Calculator ---")
 
  else:
     print("Invalid choice. Exiting dashboard.")   
