@@ -15,10 +15,13 @@ This program helps to calculate the area and circumference of a rectangle
 
 # TODO ------->>>> Write a function here for calculating the area of a rectangle using passed values. 
 # TODO ------->>>> Return the result.
-
+def calculate_area( lenght, width):
+    return lenght * width 
 
 # TODO ------->>>> Write a function here for calculating the circumference using passed values. 
 # TODO ------->>>> Return the result.
+def calclulating_perimeter( lenght, width):
+    return 2 * lenght + width 
 
 def display_result(message):
     print("\n------------------")
@@ -41,14 +44,14 @@ def main():
     if choice == "1":
         
         # TODO ------->>>> Call the function for calculating area here and save it into variable 'area'
-
-        display_result(f"The area of your rectangle is {area}².")
+        area = calculate_area ( length , width)
+        display_result(f"The area of your rectangle is {area} cm².")
 
     elif choice == "2":
 
         # TODO ------->>>> Call the function for calculating circumference here and save it into variable 'circumference'
-
-        display_result(f"The circumference of your rectangle is {circumference}.")
+        perimeter = calclulating_perimeter ( length , width)
+        display_result(f"The perimeter of your rectangle is {perimeter} cm².")
 
     else:
         print("Invalid choice. Exiting dashboard.")
