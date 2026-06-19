@@ -17,37 +17,32 @@ if ans2 == "K":
 else:
     print (" Inccorect. The symbol of Potassium is K. ")
 
-ans3 = int(input("How many electrons does Oxygen have?") .strip ().upper())
-if ans3 == "8":
-    print ("Correct answer")
+ans3 = input(" How many electerons does Oxygen have?  ").strip ().upper()
+if ans3 == "8" or ans3.lower == "eight":
+    print (" Correct! great job ")
     score += 1
-elif ans3 == "eight":
-    print (" Good job!")
-    score += 1
-else: 
-    print (" Wrong! Oxygen have 8 electrons." )
-
+else:
+    print (" Wrong. Oxygen have 8 electrons. ")
 ans4 = input(" What is the Symbol of Argon in Periodic Table? ") .strip ().upper()
-if ans4 =="AR": #need to debug#
+if ans4 =="AR": 
     print (" Great job!")
     score += 1
 else:
     print (" Incorrect. It is AR. ")
 
 ans5 = input (" What is the Symbol of Einsteinium in Periodic Table? ").strip ().upper()
-if ans5 ==" ES":
+if ans5 ==" es":
     print (" Correct!")
     score += 1
 else: 
     print (" Wrong. It is ES. ")
 
-ans6 = int(input("How many electrons does Carbon have? ") .strip ().upper())
-if ans6 == "6" or ans6=="six":  #need to debug #
-    print ("Correct answer")
+ans6 = input(" How many electerons does Carbon have?  ").strip ().upper()
+if ans6 == "6" or ans6.lower == "six":
+    print (" Correct answer ")
     score += 1
 else:
-    print (" Incorrect. Oxygen have 6 electrons")
-
+    print (" Incorrect. Carbon have 6 electrons. ")
 ans7 = input ("What is the Symbol of Bohrium in Periodic Table?").strip ().upper()
 if ans7 ==" BH":  #need to debug # 
     print (" Good job")
@@ -63,13 +58,13 @@ else:
     print (" Incorrect. It is N")
     
 ans9 = input(" How many electerons does Argon have?  ").strip ().upper()
-if ans9 ==" 18" or ans9.lower == "eighteen":
+if ans9 == "18" or ans9.lower == "eighteen":
     print (" Correct! great job ")
     score += 1
 else:
     print (" Wrong. Argon have 18 electrons. ")
-ans10= int(input("What is the atomic number of Argon?").strip ().upper())
-if ans10=="16" or ans10== " sixteen ": # need tp debug
+ans10= (input("What is the atomic number of Argon?").strip ().upper())
+if ans10==16 or ans10== " sixteen ": # need tp debug
     print(" Correct answer!")
     score+=1
 else: 
