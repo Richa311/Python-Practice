@@ -30,12 +30,12 @@ if ans4 =="AR":
 else:
     print (" Incorrect. It is AR. ")
 
-ans5 = input (" What is the Symbol of Einsteinium in Periodic Table? ").strip ().upper()
-if ans5 =="ES":
-    print (" Correct!") #need to debug # 
+ans5 = input (" What is the Symbol of Einsteinium in Periodic Table? ") .strip ().upper()
+if ans5 == "ES": 
+    print ("Correct!")
     score += 1
 else: 
-    print (" Wrong. It is ES. ")
+    print (" Wrong, it is ES" )
 
 ans6 = input(" How many electerons does Carbon have?  ").strip ().upper()
 if ans6 == "6" or ans6.lower == "six":
@@ -45,7 +45,7 @@ else:
     print (" Incorrect. Carbon have 6 electrons. ")
 ans7 = input ("What is the Symbol of Bohrium in Periodic Table?").strip ().upper()
 if ans7 =="BH": 
-    print (" Good job")
+    print (" Good job! ")
     score += 1
 else: 
     print (" Wrong. It is BH")
