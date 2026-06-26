@@ -1,9 +1,9 @@
 print (" This is basic Science quiz. There are some question related to Chemistry and Equations ")
   
 def all_code(): 
-    Quiz_running = True 
+    quiz_running = True 
     total_questions = 10
-    while Quiz_running:
+    while quiz_running:
        score =  0
         
        ans1 = input (" What is the Symbol of Sodium in Periodic Table? ") .strip ().upper()
@@ -72,7 +72,11 @@ def all_code():
         print(" Correct answer!")
         score+=1
        else: 
-        print( "Wrong, Agron's atmic number is 16.")
+         print( "Wrong, Agron's atmic number is 16.")
+
+       user_input= input("Do you want to play again?")
+       if user_input != "yes":
+            quiz_running= False 
 
     print( "The end. Your results are down below")
     print(f"Your score: { score}/ { total_questions}") 
@@ -83,5 +87,6 @@ def all_code():
         print(" Rank: Good job! keep styding to reach the top score!")
     else:
         print(" Rank: Beginner. Keep practicing on periodic table ")
-        Quiz_running= False  
+         
+
 all_code()
