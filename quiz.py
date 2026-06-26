@@ -1,6 +1,6 @@
 print (" This is basic Science quiz. There are some question related to Chemistry and Equations ")
 score =  0
-total_questions = 9
+total_questions = 10
 Quiz_running = True 
 
 ans1 = input (" What is the Symbol of Sodium in Periodic Table? ") .strip ().upper()
