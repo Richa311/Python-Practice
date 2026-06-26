@@ -1,74 +1,77 @@
-    print (" This is basic Science quiz. There are some question related to Chemistry and Equations ")
-    score =  0
-    total_questions = 10
+print (" This is basic Science quiz. There are some question related to Chemistry and Equations ")
+  
+def all_code(): 
     Quiz_running = True 
-
-    ans1 = input (" What is the Symbol of Sodium in Periodic Table? ") .strip ().upper()
-    if ans1 == "NA":
+    total_questions = 10
+    while Quiz_running:
+       score =  0
+        
+       ans1 = input (" What is the Symbol of Sodium in Periodic Table? ") .strip ().upper()
+       if ans1 == "NA":
         print ("Correct answer")
         score += 1
         
-    else: 
+       else: 
         print (" Incorrect. The symbol of Sodium is NA" )
 
-    ans2 = input (" What is the Symbol of Potassium in Periodic Table? ") .strip ().upper()
-    if ans2 == "K" :
+       ans2 = input (" What is the Symbol of Potassium in Periodic Table? ") .strip ().upper()
+       if ans2 == "K" :
         print (" Good job ")
         score += 1
-    else:
+       else:
         print (" Inccorect. The symbol of Potassium is K. ")
 
-    ans3 = input(" How many electerons does Oxygen have?  ").strip ().upper()
-    if ans3 == "8" or ans3.lower() == "eight":
+       ans3 = input(" How many electerons does Oxygen have?  ").strip ().upper()
+       if ans3 == "8" or ans3.lower() == "eight":
         print (" Correct! great job ")
         score += 1
-    else:
+       else:
         print (" Wrong. Oxygen have 8 electrons. ")
-    ans4 = input(" What is the Symbol of Argon in Periodic Table? ") .strip ().upper()
-    if ans4 =="AR": 
+       ans4 = input(" What is the Symbol of Argon in Periodic Table? ") .strip ().upper()
+       if ans4 =="AR": 
         print (" Great job!")
         score += 1
-    else:
+       else:
         print (" Incorrect. It is AR. ")
 
-    ans5 = input (" What is the Symbol of Einsteinium in Periodic Table? ") .strip ().upper()
-    if ans5 == "ES": 
+       ans5 = input (" What is the Symbol of Einsteinium in Periodic Table? ") .strip ().upper()
+       if ans5 == "ES": 
         print ("Correct!")
         score += 1
-    else: 
+       else: 
         print (" Wrong, it is ES" )
 
-    ans6 = input(" How many electerons does Carbon have?  ").strip ().upper()
-    if ans6 == "6" or ans6.lower == "six":
+       ans6 = input(" How many electerons does Carbon have?  ").strip ().upper()
+       if ans6 == "6" or ans6.lower == "six":
         print (" Correct answer ")
         score += 1
-    else:
+       else:
         print (" Incorrect. Carbon have 6 electrons. ")
-    ans7 = input ("What is the Symbol of Bohrium in Periodic Table?").strip ().upper()
-    if ans7 =="BH": 
+       ans7 = input ("What is the Symbol of Bohrium in Periodic Table?").strip ().upper()
+       if ans7 =="BH": 
         print (" Good job! ")
         score += 1
-    else: 
+       else: 
         print (" Wrong. It is BH")
         
-    ans8 = input("What is the Symbol of Neon in Periodic Table?").strip ().upper()
-    if ans8 == "N":
+       ans8 = input("What is the Symbol of Neon in Periodic Table?").strip ().upper()
+       if ans8 == "N":
         print (" Correct answer!")
         score += 1
-    else:
+       else:
         print (" Incorrect. It is N")
         
-    ans9 = input(" How many electerons does Argon have?  ").strip ().upper()
-    if ans9 == "18" or ans9.lower == "eighteen":
+       ans9 = input(" How many electerons does Argon have?  ").strip ().upper()
+       if ans9 == "18" or ans9.lower == "eighteen":
         print (" Correct! great job ")
         score += 1
-    else:
+       else:
         print (" Wrong. Argon have 18 electrons. ")
-    ans10= input("What is the atomic number of Argon?").strip ().upper()
-    if ans10== "16" or ans10.lower == " sixteen ": 
+       ans10= input("What is the atomic number of Argon?").strip ().upper()
+       if ans10== "16" or ans10.lower == " sixteen ": 
         print(" Correct answer!")
         score+=1
-    else: 
+       else: 
         print( "Wrong, Agron's atmic number is 16.")
 
     print( "The end. Your results are down below")
@@ -81,7 +84,4 @@
     else:
         print(" Rank: Beginner. Keep practicing on periodic table ")
         Quiz_running= False  
-
- def all_code(): 
-    while Quiz_running:
-        print(" The loop is running.")
+all_code()
